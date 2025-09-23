@@ -1,9 +1,9 @@
 app-id: org.angryip.ipscan
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.openjdk11
+  - org.freedesktop.Sdk.Extension.openjdk21
 command: ipscan
 finish-args:
   - --socket=wayland
@@ -18,7 +18,7 @@ modules:
   - name: openjdk
     buildsystem: simple
     build-commands:
-      - /usr/lib/sdk/openjdk11/install.sh
+      - /usr/lib/sdk/openjdk21/install.sh
 
   - name: ipscan
     buildsystem: simple
