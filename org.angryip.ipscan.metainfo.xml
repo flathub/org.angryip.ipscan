@@ -54,6 +54,9 @@
     </requires>
 
     <releases>
+        <release version="3.9.3" date="2025-11-10">
+            <url>https://github.com/angryip/ipscan/releases/tag/3.9.3</url>
+        </release>
         <release version="3.9.1" date="2023-02-11">
             <url>https://github.com/angryip/ipscan/releases/tag/3.9.1</url>
         </release>
