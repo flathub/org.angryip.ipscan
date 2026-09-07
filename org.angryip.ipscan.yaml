@@ -31,8 +31,8 @@ modules:
 
     sources:
       - type: file
-        url: https://github.com/angryip/ipscan/releases/download/3.9.3/ipscan-linux64-3.9.3.jar
-        sha256: 5f95cad52a75a97f4c5b50896323d85c5cd549b50d72c66ad7061830531834de
+        url: https://github.com/angryip/ipscan/releases/download/3.10.0/ipscan-3.10.0-linux64.jar
+        sha256: 02debfc24114cb86fcb999dc2b1f7b5a99ca34fbaf890bc15e4a5c7bb0d2b26e
         dest-filename: ipscan.jar
         only-arches: [x86_64]
         x-checker-data:
