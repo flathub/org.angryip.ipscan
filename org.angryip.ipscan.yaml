@@ -39,7 +39,7 @@ modules:
           type: json
           url: https://api.github.com/repos/angryip/ipscan/releases/latest
           version-query: .tag_name
-          url-query: .assets[] | select(.name=="ipscan-linux64-" + $version + ".jar")
+          url-query: .assets[] | select(.name=="ipscan-" + $version + "-linux64.jar")
             | .browser_download_url
 
       - type: file
