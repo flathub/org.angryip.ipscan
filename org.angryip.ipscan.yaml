@@ -31,8 +31,9 @@ modules:
 
     sources:
       - type: file
-        url: https://github.com/angryip/ipscan/releases/download/3.10.0/ipscan-3.10.0-linux64.jar
-        sha256: 02debfc24114cb86fcb999dc2b1f7b5a99ca34fbaf890bc15e4a5c7bb0d2b26e
+        url: 
+          https://github.com/angryip/ipscan/releases/download/3.12.0/ipscan-3.12.0-linux64.jar
+        sha256: 8aaf524a4530da24b7deb8924c27652399b1026a9d5240e7d27f0cee979c644f
         dest-filename: ipscan.jar
         only-arches: [x86_64]
         x-checker-data:
@@ -52,6 +53,7 @@ modules:
         path: org.angryip.ipscan.metainfo.xml
 
       - type: file
-        url: https://raw.githubusercontent.com/angryip/ipscan/b6e0b2c82a52298117e514d2f2196e26fa3ac418/resources/images/icon.svg
+        url: 
+          https://raw.githubusercontent.com/angryip/ipscan/b6e0b2c82a52298117e514d2f2196e26fa3ac418/resources/images/icon.svg
         sha256: 1b2d31740d3d3bbd51d3d9a71d65d3859e38d10e99dd978d32fe86ed1e5d7416
         dest-filename: org.angryip.ipscan.svg
